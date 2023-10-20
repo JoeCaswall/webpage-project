@@ -1,0 +1,76 @@
+.home-body {
+  display: flex;
+  background-color: lightskyblue;
+}
+
+.bio-body {
+  display: flex;
+  background-color: lightseagreen;
+}
+
+.experience-body {
+  display: flex;
+  background-color: lightsalmon;
+}
+
+.portfolio-body {
+  display: flex;
+  background-color: lightslategray;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+
+/* .nav-item:hover {
+  background-color: lightskyblue;
+} */
+
+#logo {
+  height: 5vw;
+  width: 5vw;
+  max-height: 60px;
+  max-width: 60px;
+  padding: 10px;
+}
+
+#bio-link:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
+#experience-link:hover {
+  background-color: lightsalmon;
+  color: white;
+}
+
+#portfolio-link:hover {
+  background-color: lightslategray;
+  color: white;
+}
