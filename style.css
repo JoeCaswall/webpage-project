@@ -227,6 +227,8 @@ a {
 
 .flex-main-portfolio {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-inline: 10%;
 }
 
@@ -235,4 +237,31 @@ a {
   font-size: 40px;
   font-family: "Courier New", Courier, monospace;
   margin-left: 10%;
+}
+
+#portfolio-subhead {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10%;
+}
+
+.portfolio-images {
+  width: 500px;
+  height: 345px;
+  box-shadow: 5px 5px lightblue;
+}
+
+article {
+  margin-top: 60px;
+  transition: 0.2s;
+}
+
+article:hover {
+  scale: 1.1;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-captions {
+  font-family: "Courier New", Courier, monospace;
 }
